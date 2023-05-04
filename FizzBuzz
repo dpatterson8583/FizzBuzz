@@ -1,0 +1,16 @@
+public string FizzBuzz(int fb) 
+{
+	public string answer = "";
+
+	if (fb % 3 == 0)
+	{
+		answer = "Fizz";
+	}
+
+	if (fb % 5 == 0)
+	{
+		answer += "Buzz";
+	}
+	
+	return answer;
+}
